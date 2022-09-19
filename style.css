@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600;700&display=swap');
+*{
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Mulish', sans-serif;
+    margin: 0;
+    background: #dafcd8;
+    padding-top: 4em;
+}
+
+
+.add{
+    position: absolute;
+    top: 1em;
+    right: 1em;
+    padding: 1em 2em;
+    background-color: #2e8b2a;
+    color: #fff;
+    border: 0;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 1em;
+    font-weight: 500;
+}
+.add:focus{
+   outline: none;
+}
+.add:active{
+   transform: scale(0.98);
+}
+
+.note {
+    background-color: #fff;
+    box-shadow: 0 0 10px 4px rgba(0, 0, 0, 0.1);
+    margin: 40px 20px;
+    width: 400px;
+    height: 400px;    
+}
+
+.note .tools {
+    display: flex;
+    justify-content: flex-end;
+    background-color: #2e8b2a;
+    padding: 0.5em;
+
+}
+.tools button {
+    cursor: pointer;
+    padding: 0.5em;
+    background-color: transparent;
+    border: 0;
+    font-size: 1em;
+    color: #fff;
+    font-family: inherit;
+}
+
+.note textarea{
+    width: 100%;
+    height: 400px;
+    font-size: 1.2em;
+    font-family: inherit;
+    font-weight: 500;
+    padding: 1.5em;
+    border: none;
+}
+.main{
+    padding: 20px;
+}
+.note textarea:focus{
+    outline: none;
+}
+
+.hide {
+    display: none;
+}
+
